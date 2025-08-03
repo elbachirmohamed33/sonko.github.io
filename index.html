@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Plan de Redressement National du Sénégal - Équité sociale, Souveraineté économique, Justice et transparence" />
+  <meta name="keywords" content="Sénégal, redressement, politique, citoyens, équité, souveraineté, justice" />
+  <meta property="og:title" content="Plan de Redressement du Sénégal - Citoyens en Action" />
+  <meta property="og:description" content="Découvrez le plan stratégique pour un Sénégal équitable, souverain et juste" />
+  <meta property="og:type" content="website" />
+  <title>Plan de Redressement du Sénégal - Citoyens en Action</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'senegal-green': '#1e7e34',
+            'senegal-yellow': '#ffc107',
+            'senegal-red': '#dc3545'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans leading-relaxed">
+  <!-- Header avec bouton partage -->
+  <header class="bg-gradient-to-r from-senegal-green to-green-700 text-white shadow-lg relative">
+    <div class="max-w-6xl mx-auto p-4 md:p-6">
+      <div class="flex justify-between items-start">
+        <div class="flex-1">
+          <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-2">Plan de Redressement du Sénégal</h1>
+          <p class="text-green-100 text-sm md:text-base">Comprendre, Agir, Construire ensemble 🇸🇳</p>
+        </div>
+        <!-- Bouton partage WhatsApp -->
+        <button onclick="partagerWhatsApp()" class="bg-green-500 hover:bg-green-600 text-white px-3 py-2 md:px-4 md:py-2 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+          <i class="fab fa-whatsapp text-lg md:text-xl mr-1"></i>
+          <span class="hidden md:inline">Partager</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="max-w-6xl mx-auto">
+    <!-- Introduction -->
+    <section class="p-4 md:p-6 lg:p-8">
+      <div class="bg-white rounded-lg shadow-md p-4 md:p-6 border-l-4 border-senegal-yellow">
+        <h2 class="text-xl md:text-2xl font-semibold mb-3 text-senegal-green">
+          <i class="fas fa-info-circle mr-2 text-senegal-yellow"></i>
+          Pourquoi ce plan ?
+        </h2>
+        <p class="text-sm md:text-base leading-relaxed">
+          Le Sénégal traverse une période charnière : dette élevée, inégalités sociales, institutions affaiblies. 
+          Ce plan est une réponse stratégique pour restaurer la souveraineté économique, renforcer la justice 
+          et garantir l'équité territoriale. <strong>Ensemble, nous pouvons construire un Sénégal plus juste.</strong>
+        </p>
+      </div>
+    </section>
+
+    <!-- Axes principaux -->
+    <section class="p-4 md:p-6 lg:p-8 bg-white">
+      <h2 class="text-xl md:text-2xl lg:text-3xl font-semibold mb-6 text-center text-gray-800">
+        Les 3 piliers du redressement
+      </h2>
+
+      <div class="grid gap-6 md:grid-cols-1 lg:grid-cols-3">
+        <!-- Pilier 1 -->
+        <div class="bg-gradient-to-br from-senegal-green to-green-600 text-white rounded-lg p-4 md:p-6 shadow-lg transform hover:scale-105 transition-all duration-300">
+          <div class="flex items-center mb-3">
+            <i class="fas fa-balance-scale text-2xl md:text-3xl mr-3 text-green-200"></i>
+            <h3 class="text-lg md:text-xl font-bold">1. Équité sociale et territoriale</h3>
+          </div>
+          <p class="text-sm md:text-base text-green-100 leading-relaxed">
+            Un Sénégal où chaque citoyen a les mêmes droits, peu importe sa région. 
+            Accès équitable à la santé, l'éducation et aux infrastructures.
+          </p>
+        </div>
+
+        <!-- Pilier 2 -->
+        <div class="bg-gradient-to-br from-senegal-yellow to-yellow-500 text-white rounded-lg p-4 md:p-6 shadow-lg transform hover:scale-105 transition-all duration-300">
+          <div class="flex items-center mb-3">
+            <i class="fas fa-landmark text-2xl md:text-3xl mr-3 text-yellow-200"></i>
+            <h3 class="text-lg md:text-xl font-bold">2. Souveraineté économique</h3>
+          </div>
+          <p class="text-sm md:text-base text-yellow-100 leading-relaxed">
+            Réduction de la dépendance à la dette étrangère. Valorisation des ressources internes, 
+            élargissement de l'assiette fiscale, soutien aux produits locaux.
+          </p>
+        </div>
+
+        <!-- Pilier 3 -->
+        <div class="bg-gradient-to-br from-senegal-red to-red-600 text-white rounded-lg p-4 md:p-6 shadow-lg transform hover:scale-105 transition-all duration-300">
+          <div class="flex items-center mb-3">
+            <i class="fas fa-gavel text-2xl md:text-3xl mr-3 text-red-200"></i>
+            <h3 class="text-lg md:text-xl font-bold">3. Justice, transparence, responsabilité</h3>
+          </div>
+          <p class="text-sm md:text-base text-red-100 leading-relaxed">
+            Fin de l'impunité, abrogation des lois d'amnistie injustes, 
+            reddition des comptes à tous les niveaux.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Vidéos YouTube -->
+    <section class="p-4 md:p-6 lg:p-8 bg-gray-100">
+      <h2 class="text-xl md:text-2xl lg:text-3xl font-semibold mb-6 text-center text-gray-800">
+        <i class="fab fa-youtube text-red-600 mr-2"></i>
+        Discours officiel - Vidéos
+      </h2>
+      
+      <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+        <!-- Vidéo 1 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-all duration-300">
+          <div class="bg-gradient-to-r from-senegal-red to-red-600 p-4">
+            <i class="fab fa-youtube text-3xl text-white mb-2"></i>
+            <h3 class="font-bold text-white">Discours intégral</h3>
+          </div>
+          <div class="p-4">
+            <p class="text-sm text-gray-600 mb-3">Présentation complète du plan de redressement national</p>
+            <a href="#" onclick="ouvrirVideo('VIDEO_ID_1')" class="inline-flex items-center bg-red-600 text-white px-4 py-2 rounded hover:bg-red-700 transition-colors">
+              <i class="fas fa-play mr-2"></i>Regarder
+            </a>
+          </div>
+        </div>
+
+        <!-- Vidéo 2 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-all duration-300">
+          <div class="bg-gradient-to-r from-senegal-yellow to-yellow-500 p-4">
+            <i class="fab fa-youtube text-3xl text-white mb-2"></i>
+            <h3 class="font-bold text-white">Résumé 5 minutes</h3>
+          </div>
+          <div class="p-4">
+            <p class="text-sm text-gray-600 mb-3">Les points essentiels du plan en format court</p>
+            <a href="#" onclick="ouvrirVideo('VIDEO_ID_2')" class="inline-flex items-center bg-yellow-600 text-white px-4 py-2 rounded hover:bg-yellow-700 transition-colors">
+              <i class="fas fa-play mr-2"></i>Regarder
+            </a>
+          </div>
+        </div>
+
+        <!-- Vidéo 3 -->
+        <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-all duration-300">
+          <div class="bg-gradient-to-r from-senegal-green to-green-600 p-4">
+            <i class="fab fa-youtube text-3xl text-white mb-2"></i>
+            <h3 class="font-bold text-white">Questions citoyennes</h3>
+          </div>
+          <div class="p-4">
+            <p class="text-sm text-gray-600 mb-3">Séance de questions-réponses avec les citoyens</p>
+            <a href="#" onclick="ouvrirVideo('VIDEO_ID_3')" class="inline-flex items-center bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition-colors">
+              <i class="fas fa-play mr-2"></i>Regarder
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ce que le citoyen doit savoir -->
+    <section class="p-4 md:p-6 lg:p-8">
+      <div class="bg-gradient-to-r from-senegal-red to-red-600 text-white rounded-lg p-4 md:p-6 shadow-lg">
+        <h2 class="text-xl md:text-2xl font-semibold mb-4 flex items-center">
+          <i class="fas fa-users mr-3 text-2xl"></i>
+          Le rôle du citoyen
+        </h2>
+        <div class="grid gap-3 md:grid-cols-2 lg:grid-cols-3">
+          <div class="flex items-center bg-red-500 bg-opacity-50 rounded p-3">
+            <i class="fas fa-receipt mr-3 text-xl"></i>
+            <span class="text-sm md:text-base">Payer ses impôts honnêtement</span>
+          </div>
+          <div class="flex items-center bg-red-500 bg-opacity-50 rounded p-3">
+            <i class="fas fa-shopping-cart mr-3 text-xl"></i>
+            <span class="text-sm md:text-base">Consommer local</span>
+          </div>
+          <div class="flex items-center bg-red-500 bg-opacity-50 rounded p-3">
+            <i class="fas fa-hand-paper mr-3 text-xl"></i>
+            <span class="text-sm md:text-base">Refuser la corruption</span>
+          </div>
+          <div class="flex items-center bg-red-500 bg-opacity-50 rounded p-3">
+            <i class="fas fa-vote-yea mr-3 text-xl"></i>
+            <span class="text-sm md:text-base">S'engager localement</span>
+          </div>
+          <div class="flex items-center bg-red-500 bg-opacity-50 rounded p-3">
+            <i class="fas fa-eye mr-3 text-xl"></i>
+            <span class="text-sm md:text-base">Exiger la transparence</span>
+          </div>
+          <div class="flex items-center bg-red-500 bg-opacity-50 rounded p-3">
+            <i class="fas fa-share-alt mr-3 text-xl"></i>
+            <span class="text-sm md:text-base">Partager l'information</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Suivi et transparence -->
+    <section class="p-4 md:p-6 lg:p-8 bg-white">
+      <div class="border-l-4 border-senegal-green p-4 md:p-6 bg-green-50 rounded-r-lg">
+        <h2 class="text-xl md:text-2xl font-semibold mb-3 text-senegal-green flex items-center">
+          <i class="fas fa-chart-line mr-3"></i>
+          Suivi du plan
+        </h2>
+        <p class="text-sm md:text-base leading-relaxed mb-4">
+          Le gouvernement publiera des rapports réguliers sur l'état d'avancement. Une plateforme publique 
+          permettra à chaque citoyen de suivre les résultats et faire des suggestions.
+        </p>
+        <div class="flex flex-wrap gap-3">
+          <span class="bg-senegal-green text-white px-3 py-1 rounded-full text-sm">
+            <i class="fas fa-clock mr-1"></i>Rapports mensuels
+          </span>
+          <span class="bg-senegal-yellow text-white px-3 py-1 rounded-full text-sm">
+            <i class="fas fa-globe mr-1"></i>Plateforme citoyenne
+          </span>
+          <span class="bg-senegal-red text-white px-3 py-1 rounded-full text-sm">
+            <i class="fas fa-comments mr-1"></i>Feedback citoyen
+          </span>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Bouton partage flottant mobile -->
+  <div class="fixed bottom-4 right-4 md:hidden">
+    <button onclick="partagerWhatsApp()" class="bg-green-500 hover:bg-green-600 text-white p-3 rounded-full shadow-lg transform hover:scale-110 transition-all duration-300">
+      <i class="fab fa-whatsapp text-2xl"></i>
+    </button>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-gradient-to-r from-senegal-green to-green-800 text-white">
+    <div class="max-w-6xl mx-auto p-4 md:p-6">
+      <div class="grid gap-4 md:grid-cols-3 text-center md:text-left">
+        <div>
+          <h3 class="font-bold mb-2 text-senegal-yellow">République du Sénégal</h3>
+          <p class="text-sm text-green-200">Un Peuple, Un But, Une Foi</p>
+        </div>
+        <div>
+          <h3 class="font-bold mb-2 text-senegal-yellow">Contact</h3>
+          <p class="text-sm text-green-200">info@gouv.sn</p>
+        </div>
+        <div>
+          <h3 class="font-bold mb-2 text-senegal-yellow">Partager</h3>
+          <button onclick="partagerWhatsApp()" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded transition-colors">
+            <i class="fab fa-whatsapp mr-2"></i>WhatsApp
+          </button>
+        </div>
+      </div>
+      <hr class="my-4 border-green-600">
+      <p class="text-center text-sm text-green-200">
+        © 2025 République du Sénégal. Page citoyenne créée pour l'éducation civique.
+      </p>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    function partagerWhatsApp() {
+      const titre = "Plan de Redressement du Sénégal 🇸🇳";
+      const description = "Découvrez le plan stratégique : Équité, Souveraineté, Justice";
+      const url = window.location.href;
+      const message = encodeURIComponent(`${titre}\n\n${description}\n\n${url}`);
+      
+      // Détection mobile pour app WhatsApp
+      const isMobile = /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+      const whatsappUrl = isMobile 
+        ? `whatsapp://send?text=${message}`
+        : `https://wa.me/?text=${message}`;
+      
+      window.open(whatsappUrl, '_blank');
+    }
+
+    function ouvrirVideo(videoId) {
+      // Remplacer VIDEO_ID_X par les vrais IDs YouTube
+      const youtubeUrl = `https://www.youtube.com/watch?v=${videoId}`;
+      window.open(youtubeUrl, '_blank');
+    }
+
+    // Animation au scroll
+    window.addEventListener('scroll', () => {
+      const elements = document.querySelectorAll('.transform');
+      elements.forEach(element => {
+        const elementTop = element.getBoundingClientRect().top;
+        const elementVisible = 150;
+        
+        if (elementTop < window.innerHeight - elementVisible) {
+          element.classList.add('opacity-100');
+        }
+      });
+    });
+
+    // Smooth scroll pour les ancres
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+</html>
