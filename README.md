@@ -14,7 +14,7 @@ Une page web institutionnelle présentant le plan de redressement national du S�
 ## 🏛️ Les 3 Piliers
 
 1. **Équité sociale et territoriale**
-2. **Souveraineté économique** 
+2. **Souveraineté économique**
 3. **Justice, transparence et responsabilité**
 
 ## 🛠️ Technologies

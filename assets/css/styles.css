@@ -1,0 +1,134 @@
+/* Styles communs pour toutes les pages */
+:root {
+  --senegal-green: #1e7e34;
+  --senegal-yellow: #ffc107;
+  --senegal-red: #dc3545;
+  --senegal-green-light: #28a745;
+  --senegal-yellow-light: #ffd54f;
+  --senegal-red-light: #f56565;
+}
+
+/* Animations personnalisées */
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-slide-up {
+  animation: slideInUp 0.6s ease-out;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out;
+}
+
+/* Styles pour les cartes piliers */
+.pilier-card {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.pilier-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Bouton personnalisé */
+.btn-senegal {
+  background: linear-gradient(
+    135deg,
+    var(--senegal-green),
+    var(--senegal-green-light)
+  );
+  transition: all 0.3s ease;
+}
+
+.btn-senegal:hover {
+  background: linear-gradient(
+    135deg,
+    var(--senegal-green-light),
+    var(--senegal-green)
+  );
+  transform: translateY(-2px);
+}
+
+/* Navigation breadcrumb */
+.breadcrumb {
+  background: linear-gradient(
+    90deg,
+    rgba(30, 126, 52, 0.1),
+    rgba(255, 193, 7, 0.1)
+  );
+}
+
+/* Progress bar */
+.progress-bar {
+  background: linear-gradient(
+    90deg,
+    var(--senegal-green),
+    var(--senegal-yellow),
+    var(--senegal-red)
+  );
+  height: 4px;
+}
+
+/* Section hero */
+.hero-gradient {
+  background: linear-gradient(
+    135deg,
+    var(--senegal-green) 0%,
+    var(--senegal-yellow) 50%,
+    var(--senegal-red) 100%
+  );
+  background-size: 200% 200%;
+  animation: gradient-shift 6s ease infinite;
+}
+
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Responsive design helpers */
+@media (max-width: 768px) {
+  .mobile-text-center {
+    text-align: center;
+  }
+  .mobile-hidden {
+    display: none;
+  }
+}
+
+/* Accessibility */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}

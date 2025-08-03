@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Pilier 2 - Souveraineté économique : Réduction de la dépendance étrangère et valorisation des ressources nationales" />
+  <meta name="keywords" content="souveraineté économique, Sénégal, indépendance, ressources locales, développement" />
+  <meta property="og:title" content="Souveraineté économique - Plan de Redressement du Sénégal" />
+  <meta property="og:description" content="Découvrez les stratégies pour l'indépendance économique du Sénégal" />
+  <title>Pilier 2 - Souveraineté économique | Plan de Redressement</title>
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+  
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'senegal-green': '#1e7e34',
+            'senegal-yellow': '#ffc107',
+            'senegal-red': '#dc3545'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="bg-gray-50 text-gray-800 font-sans leading-relaxed">
+  <!-- Navigation -->
+  <nav class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="flex justify-between items-center py-4">
+        <a href="../index.html" class="flex items-center text-senegal-yellow hover:text-senegal-green transition-colors">
+          <i class="fas fa-arrow-left mr-2"></i>
+          <span class="font-semibold">Retour au plan</span>
+        </a>
+        <div class="flex items-center space-x-4">
+          <a href="pilier1.html" class="text-gray-600 hover:text-senegal-green transition-colors">Pilier 1</a>
+          <a href="pilier3.html" class="text-gray-600 hover:text-senegal-red transition-colors">Pilier 3</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Breadcrumb -->
+  <div class="breadcrumb py-3">
+    <div class="max-w-6xl mx-auto px-4">
+      <nav class="text-sm">
+        <a href="../index.html" class="text-senegal-yellow hover:underline">Accueil</a>
+        <span class="mx-2 text-gray-400">/</span>
+        <span class="text-gray-600">Pilier 2 - Souveraineté économique</span>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-br from-senegal-yellow to-yellow-500 text-white py-16">
+    <div class="max-w-6xl mx-auto px-4 text-center animate-fade-in">
+      <div class="inline-flex items-center justify-center w-20 h-20 bg-white bg-opacity-20 rounded-full mb-6">
+        <i class="fas fa-landmark text-3xl"></i>
+      </div>
+      <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+        Souveraineté économique
+      </h1>
+      <p class="text-lg md:text-xl text-yellow-100 max-w-3xl mx-auto leading-relaxed">
+        Construire une économie sénégalaise forte, indépendante et résiliente, 
+        capable de répondre aux besoins de ses citoyens sans dépendance excessive.
+      </p>
+    </div>
+  </section>
+
+  <div class="max-w-6xl mx-auto px-4">
+    <!-- Vision -->
+    <section class="py-12">
+      <div class="bg-white rounded-lg shadow-lg p-6 md:p-8 animate-slide-up">
+        <h2 class="text-2xl md:text-3xl font-bold text-senegal-yellow mb-6 flex items-center">
+          <i class="fas fa-bullseye mr-3"></i>
+          Notre Vision Économique
+        </h2>
+        <div class="grid md:grid-cols-2 gap-8">
+          <div>
+            <h3 class="text-xl font-semibold mb-4 text-gray-800">La situation actuelle</h3>
+            <div class="bg-red-50 p-4 rounded-lg border-l-4 border-red-500 mb-4">
+              <p class="text-red-700 font-semibold mb-2">Dépendances critiques :</p>
+              <ul class="space-y-2 text-red-600 text-sm">
+                <li>• 70% des produits de consommation importés</li>
+                <li>• Dette extérieure : 65% du PIB</li>
+                <li>• Exportations limitées aux matières premières</li>
+                <li>• Fuga des capitaux vers l'étranger</li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold mb-4 text-gray-800">Notre objectif</h3>
+            <div class="bg-yellow-50 p-4 rounded-lg border-l-4 border-senegal-yellow">
+              <p class="text-senegal-yellow font-semibold mb-2">Sénégal autonome en 2030 :</p>
+              <ul class="space-y-2 text-gray-700 text-sm">
+                <li>• 60% de produits locaux consommés</li>
+                <li>• Dette réduite à 40% du PIB</li>
+                <li>• Industrie de transformation développée</li>
+                <li>• Investissements nationaux prioritaires</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Axes stratégiques -->
+    <section class="py-12">
+      <h2 class="text-2xl md:text-3xl font-bold text-center mb-12 text-gray-800">
+        Axes stratégiques de souveraineté
+      </h2>
+      
+      <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-6">
+        <!-- Axe 1 -->
+        <div class="bg-white rounded-lg shadow-lg p-6 pilier-card">
+          <div class="text-center mb-4">
+            <div class="inline-flex items-center justify-center w-16 h-16 bg-senegal-yellow bg-opacity-10 rounded-full mb-4">
+              <i class="fas fa-seedling text-2xl text-senegal-yellow"></i>
+            </div>
+            <h3 class="text-lg font-bold text-gray-800">Agriculture</h3>
+          </div>
+          <ul class="space-y-2 text-sm text-gray-600">
+            <li>• Autosuffisance alimentaire</li>
+            <li>• Mécanisation agricole</li>
+            <li>• Transformation locale</li>
+            <li>• Exportation à valeur ajoutée</li>
+          </ul>
+        </div>
+
+        <!-- Axe 2 -->
+        <div class="bg-white rounded-lg shadow-lg p-6 pilier-card">
+          <div class="text-center mb-4">
+            <div class="inline-flex items-center justify-center w-16 h-16 bg-senegal-yellow bg-opacity-10 rounded-full mb-4">
+              <i class="fas fa-industry text-2xl text-senegal-yellow"></i>
+            </div>
+            <h3 class="text-lg font-bold text-gray-800">Industrie</h3>
+          </div>
+          <ul class="space-y-2 text-sm text-gray-600">
+            <li>• Zones industrielles modernes</li>
+            <li>• Transformation des ressources</li>
+            <li>• Technologies appropriées</li>
+            <li>• Substitution aux importations</li>
+          </ul>
+        </div>
+
+        <!-- Axe 3 -->
+        <div class="bg-white rounded-lg shadow-lg p-6 pilier-card">
+          <div class="text-center mb-4">
+            <div class="inline-flex items-center justify-center w-16 h-16 bg-senegal-yellow bg-opacity-10 rounded-full mb-4">
+              <i class="fas fa-gem text-2xl text-senegal-yellow"></i>
+            </div>
+            <h3 class="text-lg font-bold text-gray-800">Ressources</h3>
+          </div>
+          <ul class="space-y-2 text-sm text-gray-600">
+            <li>• Exploitation optimale</li>
+            <li>• Transformation locale</li>
+            <li>• Revenus équitables</li>
+            <li>• Préservation environnementale</li>
+          </ul>
+        </div>
+
+        <!-- Axe 4 -->
+        <div class="bg-white rounded-lg shadow-lg p-6 pilier-card">
+          <div class="text-center mb-4">
+            <div class="inline-flex items-center justify-center w-16 h-16 bg-senegal-yellow bg-opacity-10 rounded-full mb-4">
+              <i class="fas fa-coins text-2xl text-senegal-yellow"></i>
+            </div>
+            <h3 class="text-lg font-bold text-gray-800">Finances</h3>
+          </div>
+          <ul class="space-y-2 text-sm text-gray-600">
+            <li>• Mobilisation fiscale</li>
+            <li>• Investissements productifs</li>
+            <li>• Réduction de la dette</li>
+            <li>• Épargne nationale</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Plan d'action détaillé -->
+    <section class="py-12">
+      <div class="bg-gradient-to-r from-senegal-yellow to-yellow-500 text-white rounded-lg p-8">
+        <h2 class="text-2xl md:text-3xl font-bold mb-8 text-center">
+          <i class="fas fa-rocket mr-3"></i>
+          Plan d'action 2025-2030
+        </h2>
+        
+        <div class="grid md:grid-cols-3 gap-8">
+          <!-- Phase 1 -->
+          <div class="bg-yellow-400 bg-opacity-30 rounded-lg p-6">
+            <h3 class="text-xl font-bold mb-4 flex items-center">
+              <i class="fas fa-play-circle mr-2"></i>
+              Phase 1 (2025-2026)
+            </h3>
+            <h4 class="font-semibold mb-3">Urgence et fondations</h4>
+            <ul class="space-y-2 text-sm">
+              <li>• Audit complet de l'économie nationale</li>
+              <li>• Création de la Banque de Développement</li>
+              <li>• Programme "Consommons sénégalais"</li>
+              <li>• Renégociation des contrats miniers</li>
+              <li>• Formation de 10,000 entrepreneurs</li>
+            </ul>
+          </div>
+
+          <!-- Phase 2 -->
+          <div class="bg-yellow-400 bg-opacity-30 rounded-lg p-6">
+            <h3 class="text-xl font-bold mb-4 flex items-center">
+              <i class="fas fa-cogs mr-2"></i>
+              Phase 2 (2027-2028)
+            </h3>
+            <h4 class="font-semibold mb-3">Transformation et croissance</h4>
+            <ul class="space-y-2 text-sm">
+              <li>• 50 unités de transformation agricole</li>
+              <li>• 20 zones industrielles opérationnelles</li>
+              <li>• Autosuffisance en riz et légumes</li>
+              <li>• Export de produits transformés</li>
+              <li>• Réduction de 30% des importations</li>
+            </ul>
+          </div>
+
+          <!-- Phase 3 -->
+          <div class="bg-yellow-400 bg-opacity-30 rounded-lg p-6">
+            <h3 class="text-xl font-bold mb-4 flex items-center">
+              <i class="fas fa-crown mr-2"></i>
+              Phase 3 (2029-2030)
+            </h3>
+            <h4 class="font-semibold mb-3">Souveraineté et rayonnement</h4>
+            <ul class="space-y-2 text-sm">
+              <li>• Hub industriel sous-régional</li>
+              <li>• Exportateur net de produits finis</li>
+              <li>• Dette réduite de 40%</li>
+              <li>• Monnaie nationale forte</li>
+              <li>• Modèle pour l'Afrique</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Secteurs prioritaires -->
+    <section class="py-12">
+      <h2 class="text-2xl md:text-3xl font-bold text-center mb-12 text-gray-800">
+        Secteurs prioritaires d'investissement
+      </h2>
+      
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Secteur 1 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <div class="bg-gradient-to-r from-green-500 to-senegal-green p-6">
+            <i class="fas fa-tractor text-3xl text-white mb-2"></i>
+            <h3 class="text-xl font-bold text-white">Agro-industrie</h3>
+          </div>
+          <div class="p-6">
+            <p class="text-gray-600 mb-4">Transformation des productions agricoles pour réduire les importations alimentaires.</p>
+            <div class="space-y-2">
+              <div class="flex justify-between">
+                <span class="text-sm">Investissement</span>
+                <span class="font-semibold">500 Mds FCFA</span>
+              </div>
+              <div class="flex justify-between">
+                <span class="text-sm">Emplois créés</span>
+                <span class="font-semibold">200,000</span>
+              </div>
+              <div class="flex justify-between">
+                <span class="text-sm">Impact</span>
+                <span class="font-semibold text-green-600">Autosuffisance</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Secteur 2 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <div class="bg-gradient-to-r from-blue-500 to-blue-600 p-6">
+            <i class="fas fa-microchip text-3xl text-white mb-2"></i>
+            <h3 class="text-xl font-bold text-white">Technologies</h3>
+          </div>
+          <div class="p-6">
+            <p class="text-gray-600 mb-4">Développement des TIC et de l'innovation pour la compétitivité.</p>
+            <div class="space-y-2">
+              <div class="flex justify-between">
+                <span class="text-sm">Investissement</span>
+                <span class="font-semibold">300 Mds FCFA</span>
+              </div>
+              <div class="flex justify-between">
+                <span class="text-sm">Emplois créés</span>
+                <span class="font-semibold">150,000</span>
+              </div>
+              <div class="flex justify-between">
+                <span class="text-sm">Impact</span>
+                <span class="font-semibold text-blue-600">Innovation</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Secteur 3 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <div class="bg-gradient-to-r from-purple-500 to-purple-600 p-6">
+            <i class="fas fa-bolt text-3xl text-white mb-2"></i>
+            <h3 class="text-xl font-bold text-white">Énergie</h3>
+          </div>
+          <div class="p-6">
+            <p class="text-gray-600 mb-4">Indépendance énergétique avec les renouvelables et le mix énergétique.</p>
+            <div class="space-y-2">
+              <div class="flex justify-between">
+                <span class="text-sm">Investissement</span>
+                <span class="font-semibold">800 Mds FCFA</span>
+              </div>
+              <div class="flex justify-between">
+                <span class="text-sm">Emplois créés</span>
+                <span class="font-semibold">100,000</span>
+              </div>
+              <div class="flex justify-between">
+                <span class="text-sm">Impact</span>
+                <span class="font-semibold text-purple-600">Autonomie</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Financement et ressources -->
+    <section class="py-12">
+      <div class="bg-white rounded-lg shadow-lg p-8">
+        <h2 class="text-2xl md:text-3xl font-bold text-center mb-8 text-gray-800">
+          <i class="fas fa-piggy-bank mr-3 text-senegal-yellow"></i>
+          Financement de la souveraineté
+        </h2>
+        
+        <div class="grid md:grid-cols-2 gap-8">
+          <div>
+            <h3 class="text-xl font-semibold mb-4 text-senegal-yellow">Sources de financement</h3>
+            <div class="space-y-4">
+              <div class="flex items-center justify-between p-4 bg-yellow-50 rounded-lg">
+                <div class="flex items-center">
+                  <i class="fas fa-coins text-senegal-yellow mr-3"></i>
+                  <span>Amélioration fiscale</span>
+                </div>
+                <span class="font-bold">40%</span>
+              </div>
+              <div class="flex items-center justify-between p-4 bg-green-50 rounded-lg">
+                <div class="flex items-center">
+                  <i class="fas fa-gem text-senegal-green mr-3"></i>
+                  <span>Ressources naturelles</span>
+                </div>
+                <span class="font-bold">30%</span>
+              </div>
+              <div class="flex items-center justify-between p-4 bg-blue-50 rounded-lg">
+                <div class="flex items-center">
+                  <i class="fas fa-handshake text-blue-600 mr-3"></i>
+                  <span>Partenariats stratégiques</span>
+                </div>
+                <span class="font-bold">20%</span>
+              </div>
+              <div class="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
+                <div class="flex items-center">
+                  <i class="fas fa-university text-gray-600 mr-3"></i>
+                  <span>Épargne nationale</span>
+                </div>
+                <span class="font-bold">10%</span>
+              </div>
+            </div>
+          </div>
+          
+          <div>
+            <h3 class="text-xl font-semibold mb-4 text-senegal-yellow">Mécanismes innovants</h3>
+            <ul class="space-y-3">
+              <li class="flex items-start">
+                <i class="fas fa-lightbulb text-senegal-yellow mr-2 mt-1"></i>
+                <div>
+                  <strong>Fonds Souverain Sénégalais</strong>
+                  <p class="text-sm text-gray-600">Capitalisation des revenus miniers et pétroliers</p>
+                </div>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-chart-line text-senegal-yellow mr-2 mt-1"></i>
+                <div>
+                  <strong>Obligations vertes</strong>
+                  <p class="text-sm text-gray-600">Financement des projets environnementaux</p>
+                </div>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-mobile-alt text-senegal-yellow mr-2 mt-1"></i>
+                <div>
+                  <strong>Financement participatif</strong>
+                  <p class="text-sm text-gray-600">Mobilisation de l'épargne diaspora</p>
+                </div>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-recycle text-senegal-yellow mr-2 mt-1"></i>
+                <div>
+                  <strong>Économie circulaire</strong>
+                  <p class="text-sm text-gray-600">Optimisation des ressources existantes</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rôle du citoyen -->
+    <section class="py-12">
+      <div class="bg-gradient-to-r from-senegal-yellow to-yellow-500 text-white rounded-lg p-8">
+        <h2 class="text-2xl md:text-3xl font-bold mb-6 text-center">
+          <i class="fas fa-users mr-3"></i>
+          Votre contribution à la souveraineté
+        </h2>
+        
+        <div class="grid md:grid-cols-4 gap-6">
+          <div class="text-center">
+            <div class="bg-yellow-400 bg-opacity-50 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+              <i class="fas fa-shopping-cart text-2xl"></i>
+            </div>
+            <h3 class="font-bold mb-2">Consommez local</h3>
+            <p class="text-sm text-yellow-100">Privilégier les produits sénégalais</p>
+          </div>
+          
+          <div class="text-center">
+            <div class="bg-yellow-400 bg-opacity-50 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+              <i class="fas fa-piggy-bank text-2xl"></i>
+            </div>
+            <h3 class="font-bold mb-2">Épargnez local</h3>
+            <p class="text-sm text-yellow-100">Investir dans l'économie nationale</p>
+          </div>
+          
+          <div class="text-center">
+            <div class="bg-yellow-400 bg-opacity-50 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+              <i class="fas fa-briefcase text-2xl"></i>
+            </div>
+            <h3 class="font-bold mb-2">Entreprenez</h3>
+            <p class="text-sm text-yellow-100">Créer de la valeur ajoutée locale</p>
+          </div>
+          
+          <div class="text-center">
+            <div class="bg-yellow-400 bg-opacity-50 rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-4">
+              <i class="fas fa-graduation-cap text-2xl"></i>
+            </div>
+            <h3 class="font-bold mb-2">Formez-vous</h3>
+            <p class="text-sm text-yellow-100">Acquérir les compétences nécessaires</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Navigation vers autres piliers -->
+  <section class="bg-gray-100 py-12">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2 class="text-2xl font-bold text-center mb-8 text-gray-800">
+        Découvrez les autres piliers
+      </h2>
+      
+      <div class="grid md:grid-cols-2 gap-8">
+        <a href="pilier1.html" class="block bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+          <div class="bg-gradient-to-r from-senegal-green to-green-600 p-6">
+            <i class="fas fa-balance-scale text-3xl text-white mb-2"></i>
+            <h3 class="text-xl font-bold text-white">Pilier 1</h3>
+          </div>
+          <div class="p-6">
+            <h4 class="font-bold text-gray-800 mb-2">Équité sociale et territoriale</h4>
+            <p class="text-gray-600 text-sm">Accès équitable aux services et opportunités</p>
+          </div>
+        </a>
+        
+        <a href="pilier3.html" class="block bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+          <div class="bg-gradient-to-r from-senegal-red to-red-600 p-6">
+            <i class="fas fa-gavel text-3xl text-white mb-2"></i>
+            <h3 class="text-xl font-bold text-white">Pilier 3</h3>
+          </div>
+          <div class="p-6">
+            <h4 class="font-bold text-gray-800 mb-2">Justice, transparence, responsabilité</h4>
+            <p class="text-gray-600 text-sm">Fin de l'impunité, reddition des comptes</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gradient-to-r from-senegal-yellow to-yellow-600 text-white py-8">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <div class="mb-4">
+        <a href="../index.html" class="inline-flex items-center bg-yellow-600 hover:bg-yellow-700 text-white px-6 py-3 rounded-lg transition-colors">
+          <i class="fas fa-home mr-2"></i>
+          Retour au plan général
+        </a>
+      </div>
+      <p class="text-sm text-yellow-100">
+        © 2025 République du Sénégal - Pilier 2 : Souveraineté économique
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    // Animation au scroll
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('animate-slide-up');
+        }
+      });
+    }, observerOptions);
+
+    document.querySelectorAll('.pilier-card').forEach(card => {
+      observer.observe(card);
+    });
+  </script>
+</body>
+</html>
